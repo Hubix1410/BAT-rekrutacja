@@ -1,0 +1,23 @@
+@import "/utilities/";
+
+.header{
+    padding: 0 112px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid $black-glo;
+
+    &__logo{
+        padding-right: 100px;
+    }
+
+    &__link{
+        font-size: 12px;
+        font-weight: 800;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $black-glo;
+    }
+}

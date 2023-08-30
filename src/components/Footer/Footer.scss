@@ -1,0 +1,28 @@
+@import "/utilities/";
+
+.footer{
+    height:48px;
+    background-color: $black-glo;
+    padding: 0 112px;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    &__text{
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 100;
+
+        color: $white-base;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 168px;
+    }
+}

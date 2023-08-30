@@ -1,0 +1,48 @@
+@import '/utilities/';
+
+.questionBanner{
+    padding:112px;
+    display: flex;
+    background-color: $coral-glo;
+    height: 364px;
+
+    &--left{
+        width: 832px;
+        font-size: 70px;
+        font-style: italic;
+        font-weight: 950;
+        text-transform: uppercase;
+        line-height: 100%;
+        color: $black-glo;
+    }
+
+    &--right{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 384px;
+    }
+
+    &__text--small{
+        font-size: 14px;
+        font-style: normal;
+        line-height: 140%;
+        color: $black-glo;
+    }
+
+    &__text--big{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $black-glo;
+        
+        margin-top: 18px;
+
+        > img {
+            margin-bottom: -4px;
+            color: $black-glo;
+        }
+    }
+}

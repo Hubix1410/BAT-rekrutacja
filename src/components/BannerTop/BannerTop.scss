@@ -1,0 +1,17 @@
+@import '/utilities/';
+
+.bannerTop{
+    height: 40px;
+    background-color: $black-glo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title{
+        color: $white-base;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+    }
+}
